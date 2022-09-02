@@ -7,7 +7,7 @@ coreschema==0.0.4
 coverage==6.4.4
 cryptography==37.0.4
 dj-database-url==1.0.0
-Django==4.1
+Django==4.0
 django-filter==22.1
 django-on-heroku==1.1.2
 djangorestframework==3.13.1
