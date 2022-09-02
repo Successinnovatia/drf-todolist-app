@@ -31,10 +31,10 @@ class TestModel(APITestCase):
         with self.assertRaisesMessage(ValueError, 'The given email must be set' ):
             User.objects.create_user(username='tetuser', email='', password='Password123!@')
 
-    def test_creates_super_user_with_is_staff_user_status(self):
+    def test_cant_create_super_user_with_no_is_staff_status(self):
         with self.assertRaisesMessage(ValueError, 'Superuser must have is_staff=True.' ):
             User.objects.create_superuser(username='testuser', email='testuser@email.com', password='Password123!@', is_staff=False,)
 
-    def test_creates_super_user_with_super_user_status(self):
+    def test_cant_create_super_user_with_no_super_user_status(self):
         with self.assertRaisesMessage(ValueError, 'Superuser must have is_superuser=True.' ):
             User.objects.create_superuser(username='testuser', email='testuser@email.com', password='Password123!@', is_superuser=False,)
