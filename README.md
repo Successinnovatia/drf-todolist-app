@@ -1,5 +1,5 @@
 # drf-todolist-app
-This is a todo api for creating, updating, and deleting todos including authentication and documentation.
+This is a todo API for creating, updating, and deleting todos including authentication and documentation.
 ## frameworks used
 - Django
 - Django Rest Framework
