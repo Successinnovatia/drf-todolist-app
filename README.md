@@ -1,6 +1,14 @@
 # django-rest-framework-todolist-api
 
-This project is a Django-based application that implements a Todo list API using Django REST framework. It includes user authentication and provides endpoints to perform Create, Read, Update, and Delete (CRUD) operations on the Todo list items. Follow the instructions below to set up the project and start using the API.
+This project is a Django-based application that implements a Todo list API using Django REST framework. It includes user authentication and provides endpoints to perform Create, Read, Update, and Delete (CRUD) operations on the Todo list items. Follow the instructions below to set up the project and start
+using the API.
+
+## frameworks used
+
+- Django
+- Django Rest Framework
+- Postman
+- Swagger
 
 ## Prerequisites
 
